@@ -8,8 +8,10 @@
 /*style all P tags */
 
 p{
-    font-size: 12px;
+    font-size: 12px !important;
     color: blue;
+    font-family: arial;
+    font-weight: bold;
 }
 
 #header p {
@@ -19,4 +21,33 @@ p{
 /*style all header tags */
 h1 {
     font-size: 44px;
+}
+
+a {
+    text-decoration:underline;
+    color: blue;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+div {
+    width: 100%;
+    background-color: grey;
+
+}
+
+#content-header {
+    font-size: 18px;
+    color: red;
+}
+
+span {
+    display: block;
+    color: blue;
+}
+
+.deck{
+    color: red;
 }
